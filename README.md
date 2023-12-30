@@ -76,7 +76,7 @@ git checkout main
 git merge 'branch_name'
 ```
 
-Make sure to add your brannch name.
+Make sure to add your branch name.
 
 ## Additional Commands
 
@@ -108,7 +108,7 @@ On GitHub, click the "+" in the top right corner and select "New Repository." Fo
 After creating a repository, connect your local repository to the GitHub repository:
 
 ```bash
-git remote add origin https://github.com/your-username/your-repository.
+git remote add origin 'https://github.com/your-username/your-repository'.
 ```
 
 ```bash
@@ -126,8 +126,10 @@ Make sure to add your username and your repository name.
 If you want to push branches other than `main`, use:
 
 ```bash
-git push origin branch_name
+git push origin 'branch_name'
 ```
+
+Make sure to add your branch name.
 
 ## Contributing
 
