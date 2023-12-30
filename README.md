@@ -21,7 +21,7 @@ This branch, `branch2`, contains additional features or changes to the codebase.
 2. Switch to `branch2`:
 
     ```bash
-        git checkout branch2
+    git checkout branch2
     ```
     
 3.  Explore the code and make your changes.
