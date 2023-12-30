@@ -19,22 +19,28 @@ git init
 To create a new branch, use the following command:
 
 ```bash
-git branch branch_name
+git branch 'branch_name'
 ```
+
+Make sure to add your brannch name.
 
 ### 4. Switch to a Branch:
 
 To switch to the newly created branch, use:
 
 ```bash
-git checkout branch_name
+git checkout 'branch_name'
 ```
+
+Make sure to add your brannch name.
 
 Alternatively, you can use a single command to create and switch to a new branch:
 
 ```bash
-git checkout -b branch_name
+git checkout -b 'branch_name'
 ```
+
+Make sure to add your brannch name.
 
 ### 5. Make Changes:
 
@@ -52,21 +58,39 @@ git add .
 git commit -m "Your commit message here"
 ```
 
+```bash
+git push origin 'branch_name'
+```
+
+Make sure to add your commit message and brannch name.
+
 ### 7. Merge Branches:
 
 Once you're done with changes on a branch, you can merge it back into the main branch (usually `main` or `master`):
 
 ```bash
-git checkout main git merge branch_name
+git checkout main
 ```
-
-### 8. View Branches:
-
-To see all branches and the current branch, use:
 
 ```bash
-git branch
+git merge 'branch_name'
 ```
+
+Make sure to add your brannch name.
+
+## Additional Commands
+
+1. To view all Git branches:
+
+    ```bash
+    git branch
+    ```
+
+2. To delete a Git branch:
+
+    ```bash
+    git branch --delete 'branch_name'
+    ```
 
 GitHub:
 -----------------------------
@@ -88,7 +112,11 @@ git remote add origin https://github.com/your-username/your-repository.
 ```
 
 ```bash
-git git branch -M main git push -u origin main
+git branch -M main
+```
+
+```bash
+git push -u origin main
 ```
 
 Make sure to add your username and your repository name.
@@ -100,20 +128,6 @@ If you want to push branches other than `main`, use:
 ```bash
 git push origin branch_name
 ```
-
-## Additional Commands
-
-1. To view all Git branches:
-
-    ```bash
-    git branch
-    ```
-
-2. To delete a Git branch:
-
-    ```bash
-    git branch --delete 'branch_name'
-    ```
 
 ## Contributing
 
