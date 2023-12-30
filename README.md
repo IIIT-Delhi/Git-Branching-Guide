@@ -45,7 +45,11 @@ Make changes to your project files while on the branch.
 After making changes, commit them to the branch:
 
 ```bash
-git add . git commit -m "Your commit message here"
+git add .
+```
+
+```bash
+git commit -m "Your commit message here"
 ```
 
 ### 7. Merge Branches:
@@ -96,6 +100,20 @@ If you want to push branches other than `main`, use:
 ```bash
 git push origin branch_name
 ```
+
+## Additional Commands
+
+1. To view all Git branches:
+
+    ```bash
+    git branch
+    ```
+
+2. To delete a Git branch:
+
+    ```bash
+    git branch --delete 'branch_name'
+    ```
 
 ## Contributing
 
