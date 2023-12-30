@@ -4,18 +4,18 @@ This branch, `branch1`, contains additional features or changes to the codebase.
 
 ## Code Changes
 
-- Added `branch1_file.py` with code: `print('Hello from branch1')`
+- Added `branch1.py` with code: `print('Hello from branch1')`
 
 ## How to Use
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/Branching-Demo.git
+    git clone https://github.com/Vikranth3140/BranchTest.git
     ```
 
     ```bash
-    cd Branching-Demo
+    cd BranchTest
     ```
 
 2. Switch to `branch1`:
@@ -43,8 +43,7 @@ This branch, `branch1`, contains additional features or changes to the codebase.
 5.  If you want to merge your changes into the `main` branch, create a pull request on GitHub.
     
 
-Notes
-----------------
+## Notes
 
 Feel free to add any additional information or notes specific to changes in `branch1`.
 
