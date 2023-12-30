@@ -139,7 +139,7 @@ Make sure to add your branch name.
 
 ## Contributing
 
-Welcome to contribute to Branch Test! Feel free to fork the repository and suggest any improvements. To contribute, follow these steps:
+Welcome to contribute to Git Brancing Guide! Feel free to fork the repository and suggest any improvements. To contribute, follow these steps:
 
 1.  Fork the repository.
 2.  Create a new branch for your feature or bug fix.
